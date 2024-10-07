@@ -11,7 +11,7 @@ function App() {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await fetch("http://3.35.216.158:8080/hello"); // API 요청
+        const response = await fetch("http://54.180.251.26:8080/hello"); // API 요청
         const data = await response.json(); // 응답을 JSON으로 변환
         console.log(data); // 데이터를 콘솔에 출력
         setRandomNumber(data); // 데이터를 상태에 저장
